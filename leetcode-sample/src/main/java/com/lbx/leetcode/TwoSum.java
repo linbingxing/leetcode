@@ -21,6 +21,10 @@ public class TwoSum {
         Arrays.stream(result).forEach(i-> System.out.println(i));
     }
 
+    /**
+      * 解题思路：
+     *  利用map的key原理
+     **/
     public static  int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         for(int i=0;i< nums.length;i++){
